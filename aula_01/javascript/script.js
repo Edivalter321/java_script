@@ -52,3 +52,4 @@ let masculino = 1.9;
 if (sexoF === 1) {
   console.log(`Sua IMC é igual a: ${62.1 * feminino - 44.7}`);
 }
+//
