@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nacionalidade</title>
+    <style>
+      body {
+        font: Normal 18px Arial;
+        background-color: beige;
+        padding: 2vh;
+        color: black;
+      }
+      h1 {
+        font: Normal 26px Arial;
+        color: blue;
+      }
+      input#txtv {
+        border: 0;
+        border-radius: 6px;
+        width: 38vh;
+        height: 5vh;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Sistema de Analise de Nacionalidade</h1>
+    Digite sua nacionalidade: <input type="text" name="txtv" id="txtv" />
+    <input type="button" value="verificar" onclick="pesquisar()" />
+    <div id="res"></div>
+
+    <script>
+      function verificar() {
+        var txtv = window.document.querySelector("input#txtv");
+        var res = window.document.querySelector("div#res");
+        var nacionalidade = Text(txtv.value);
+
+        if (nacionalidade === "Brasileira") {
+          res.innerHTML = `<p>Sua nacionalidade é <strong>${nacionalidade} Km/h</strong></p>`;
+        } 
+          res.innerHTML += `Sua Nacionalidade é estrangeira!</p>`;
+      }
+    </script>
+  </body>
+</html>
