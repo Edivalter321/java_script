@@ -44,7 +44,7 @@
 //     if {
 //            console.log(`Os numeros selecionados foram ${numeros(0,2,4)}`)
 //      }
-// Questao 6
+/* Questao 6
 const sexoF = 1;
 const sexoM = 2;
 let feminino = 1.8;
@@ -52,4 +52,4 @@ let masculino = 1.9;
 if (sexoF === 1) {
   console.log(`Sua IMC é igual a: ${62.1 * feminino - 44.7}`);
 }
-//
+*/
