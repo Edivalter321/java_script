@@ -1,0 +1,30 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  color: black;
+  background-color: beige;
+  margin-top: 30vh;
+}
+#caixa {
+  margin: auto;
+  padding: 3vh;
+  width: 40vw;
+  height: auto;
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+}
+select#flista {
+  width: 200px;
+}
+p.rodape {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
