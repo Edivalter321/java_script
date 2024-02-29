@@ -174,3 +174,5 @@ const primosAteLimite = nPrimos(limite)
 console.log(primosAteLimite)
 */
 //Escreva uma função chamada somarArray que aceita um array de números como parâmetro e retorna a soma de todos os números do array.
+
+
