@@ -46,8 +46,9 @@ let iCasas = [
   },
 ];
 //Array.prototype.push.apply(iCarros,iCasas)
-iCarros.push(iCasas);
+//iCarros.push(iCasas);
 //iCasas.push(iCarros)
 //console.log(iCasas);
-//console.log(iCasas.length)
+console.log(iCarros.length);
+console.log(iCasas.length);
 console.log(iCarros);
