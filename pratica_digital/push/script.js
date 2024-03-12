@@ -15,7 +15,7 @@ let letras = ["a", "b", "c", "d"];
 console.log(numeros);
 console.log(numeros.length); //tamanho do Array
 */
-let iCarros = [
+/*let iCarros = [
   {
     fabricante: "volkswagem",
     ano: 2018,
@@ -52,3 +52,20 @@ let iCasas = [
 console.log(iCarros.length);
 console.log(iCasas.length);
 console.log(iCarros);
+*/
+/*let comida = ["arroz", "feijão","salada"]
+//let novasComidas = ["frango", "rabada","feijoada"]
+//comida.push(novasComidas)
+comida.push("macarronada","bacalhau")
+//Array.prototype.push.apply(comida,novasComidas)
+console.log(comida)
+console.log(comida.length)
+*/
+let caixa = [];
+//console.log(typeof(caixa))
+
+caixa.push({ casa: "preta", valor: 2.5, cidade: "fortaleza" });
+
+//console.log(caixa.length)
+//Array.prototype.push.apply(caixa, [{ estado: "ceara" }]);
+console.log(caixa);
