@@ -166,7 +166,7 @@ function calcularIMC(peso, altura) {
 let resultado = calcularIMC(80, 1.6);
 console.log(`Seum IMC é de ${resultado}kg/m²`);
 */
-// Escreva uma função chamada gerarPrimos que aceita um número n como parâmetro e retorna um array contendo os números primos até o número n.
+/* Escreva uma função chamada gerarPrimos que aceita um número n como parâmetro e retorna um array contendo os números primos até o número n.
 
 function gerarPrimos(n) {
   let primos = new Array();
@@ -187,3 +187,9 @@ function PrimosNumeros(n) {
 }
 
 console.log(gerarPrimos(50));
+*/
+
+/*let numeros = [2,3,4,5]
+numeros.push(8,5,7,5)
+console.log(numeros)
+*/
