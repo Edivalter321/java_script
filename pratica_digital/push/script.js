@@ -64,8 +64,13 @@ console.log(comida.length)
 let caixa = [];
 //console.log(typeof(caixa))
 
-caixa.push({ casa: "preta", valor: 2.5, cidade: "fortaleza" });
-
+//caixa.push({ casa: "preta", valor: 2.5, cidade: "fortaleza" });
+caixa.push(1,2,3,4,5,6)
+caixa.push("a","b","c","d")
+caixa.push({nome: 'maria', idade: 23, sexo:"feminino"})
 //console.log(caixa.length)
 //Array.prototype.push.apply(caixa, [{ estado: "ceara" }]);
 console.log(caixa);
+console.log(typeof(caixa))
+console.log(caixa.length)
+//console.log(typeof())
